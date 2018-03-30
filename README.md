@@ -7,3 +7,5 @@ A php form to accept data insert data to DB  and print it
 
 *note: the data is uploaded to DB and the image is uploaded top server and its path is saved to Db entry
 *you can uplaad image in DB using Blob Datatype 
+
+ to view the form goto http://timepass7444.000webhostapp.com/php
