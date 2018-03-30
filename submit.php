@@ -2,6 +2,13 @@
 // Start the session
 session_start();
 header("refresh:2;url=end.php");
+//initial value assign if there is error submitting data
+$_SESSION["rollno"] = "0";
+$_SESSION["name"] = "error";
+$_SESSION["department"] = "error"; 
+ $_SESSION["class"] = "0";
+  $_SESSION["dob"] = "0000-00-00";
+ $_SESSION["photo"] = "images/error.jpg";
 
 ?> 
 
